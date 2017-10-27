@@ -35,7 +35,6 @@ import {
     margin-right: 50px;
     line-height: 25px;
     color: white;
-    text-transform: lowercase;
     padding:2px 7px;
     border-radius: 3px;
     display: none;
@@ -68,7 +67,7 @@ import {
           <div class="content" [style.display]="content ? 'block' : 'none'">{{content}}</div>
         </div>
         <a class="fab-item">
-           <mat-icon> {{icon}} </mat-icon>
+           <mat-icon svgIcon="{{icon}}"></mat-icon>
         </a>
     </div>
   `,
